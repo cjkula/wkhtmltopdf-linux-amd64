@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
-  s.name = 'wkhtmltopdf-binary'
+  s.name = 'wkhtmltopdf-linux-amd64'
   s.version = '0.12.1'
   s.summary = 'Provides binaries for WKHTMLTOPDF project in an easily accessible package.'
   s.description = ''
@@ -8,16 +8,15 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.8.7'
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.author = '- Research Information Systems, The University of Iowa'
+  s.author = '- cjk'
   s.homepage = ''
-  s.email = 'vpr-ris-developers@iowa.uiowa.edu,mcollas@aconex.com'
+  s.email = 'chris@johnmcneilstudio.com'
 
   s.bindir = 'bin'
   s.executables = %w(wkhtmltopdf)
 
   s.files = %w(
-    lib/wkhtmltopdf-binary.rb bin/wkhtmltopdf
-    libexec/wkhtmltopdf-darwin-x86
+    lib/wkhtmltopdf-linux-amd64.rb bin/wkhtmltopdf
     libexec/wkhtmltopdf-linux-amd64
-    libexec/wkhtmltopdf-linux-x86)
+  )
 end
